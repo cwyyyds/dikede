@@ -22,10 +22,12 @@ export default {
 .app-main {
   /*50 = navbar  */
   min-height: calc(100vh - 50px);
-  width: 100%;
-  position: relative;
+  width: 90%;
+  position: fixed;
   overflow: hidden;
   top: 60px;
+  padding-right: 30px;
+  background: skyblue;
 }
 .fixed-header + .app-main {
   padding-top: 50px;

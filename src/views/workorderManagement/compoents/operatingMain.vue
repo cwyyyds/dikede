@@ -4,6 +4,8 @@
       <buttons :backgroundS="backgroundAdd" :text="textAdd" :iconS="iconAdd" />
       <buttons :backgroundS="backgroundF" :text="textF" :colorS="colorF" />
     </div>
+
+    <!-- 内容 -->
     <div>
       <table cellspacing="0">
         <thead>
@@ -30,11 +32,15 @@
         </tr>
       </table>
     </div>
+
+    <!-- 分页 -->
+    <pagination></pagination>
   </div>
 </template>
 
 <script>
 import buttons from '@/components/button'
+import pagination from '@/components/Pagination'
 export default {
   props: {
     getWorkOrderList: {
@@ -55,6 +61,7 @@ export default {
 
   components: {
     buttons,
+    pagination,
   },
   created() {},
 

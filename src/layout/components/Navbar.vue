@@ -72,7 +72,7 @@ header {
   justify-content: space-between;
   align-items: center;
   transform: translateY(-60px);
-
+  z-index: 2;
   img {
     height: 36px;
     margin-left: 16px;
